@@ -1,4 +1,4 @@
-# asteroids 📚🤖
+# asteroids 🌌🎮
 
 ## Authors 🙋‍♂️
 
