@@ -6,7 +6,11 @@
 
 ## Getting Started 💫
 
-- to be completed
+- Ensure all prerequisites are met, then run main.py.
+
+* run game
+   ```sh
+   python3 main.py
 
 ### Prerequisites 🚀
 
