@@ -1,3 +1,5 @@
+import pygame
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -13,3 +15,10 @@ PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_COOLDOWN = 0.3
 
 SHOT_RADIUS = 5
+
+# controls
+UP = pygame.K_w
+DOWN = pygame.K_s
+LEFT = pygame.K_a
+RIGHT = pygame.K_d
+SHOOT = pygame.K_SPACE

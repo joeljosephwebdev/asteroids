@@ -4,9 +4,16 @@
 
 - [Joel Joseph](https://www.github.com/joeljosephwebdev)
 
+
+## Description
+
+This is a simple recreation of the classic game Asteroids. This project was written in python using the pygame library.
+
 ## Getting Started 💫
 
 - Ensure all prerequisites are met, then run main.py.
+- Use WASD to move and spacebar to shoot
+- You can modify the controls in the constants.py file
 
 * run game
    ```sh

@@ -40,6 +40,12 @@ def main():
                 print("Game Over")
                 return
 
+        for asteroid in asteroids:
+            for shot in shots:
+                if shot.checkCollision(asteroid):
+                    shot.kill()
+                    asteroid.split()
+
         screen.fill("black")
 
         for item in drawable:
@@ -52,3 +58,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
