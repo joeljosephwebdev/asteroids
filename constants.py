@@ -22,3 +22,11 @@ DOWN = pygame.K_s
 LEFT = pygame.K_a
 RIGHT = pygame.K_d
 SHOOT = pygame.K_SPACE
+
+
+#Score weights
+SCORE_SMALL = 500
+SCORE_MEDIUM = 200
+SCORE_LARGE = 50
+
+TEXT_FLASH_INTERVAL = 0.8

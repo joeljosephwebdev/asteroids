@@ -1,4 +1,5 @@
 import pygame
+from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 
 # Base class for game objects
 class CircleShape(pygame.sprite.Sprite):
@@ -19,6 +20,10 @@ class CircleShape(pygame.sprite.Sprite):
     def update(self, dt : int):
         # sub-classes must override
         pass
+
+    #check if position exceeds any screen boundaries and if so, show up on the other side 
+    def wrapAround(self):
+        pass
     
     #This checks collision for all objects in our game
     def checkCollision(self, other_object):
@@ -28,4 +33,3 @@ class CircleShape(pygame.sprite.Sprite):
             return True
         else:
             return False
-            
